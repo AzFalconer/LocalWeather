@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter|Orbitron|Righteous|Exo|Mogra|Tangerine|Acme|OpenSans);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+$pColor: white;
+$blue: #8080ff;
+$red: #ff3333;
+$pFont: Acme, serif;
+* {box-sizing: border-box;}
+a {text-decoration: none;}
+body{display: table; margin: 0 auto; background-color: #515A5A;}
+i {color: cornflowerblue;}
+.main {margin: 10px; max-width: 800px; position:relative;}
+.footer {margin: 0 auto; font-family: Acme, serif; text-align: center;}
+#weather {max-width: 70%;position: absolute;top: 20px;left: 20px;font-size: calc(90% + 1.5vw);font-family: 'Acme', serif;color: white;}
+#fc {cursor:pointer;border:none;position: absolute;top: 20px;right: 20px;}
+#formZip {margin: 0;position: absolute;bottom: 20px;right: 20px;font-size: calc(90% + .8vw);}
+#msg {max-width: 60%;position: absolute;top: 40%;left: 30%;font-size: calc(90% + .8vw);font-family: 'Acme', serif;color: white;}

@@ -1,0 +1,21 @@
+<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script type="text/javascript" src='main.js'></script>
+<head>
+  <link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+  <div class="main">
+    <div>
+    <img id="rain" src="https://www.redtailbooks.com/codeCamp/images/rain.jpg" style="max-width: 100%; height: auto;">
+    <img id="clear" src="https://www.redtailbooks.com/codeCamp/images/clear.jpg" style="max-width: 100%; height: auto;">
+    <img id="cloudy" src="https://www.redtailbooks.com/codeCamp/images/cloudy.jpg" style="max-width: 100%; height: auto;">
+    <img id="snow" src="https://www.redtailbooks.com/codeCamp/images/snow.jpg" style="max-width: 100%; height: auto;"></div>
+  <div id="weather"></div>
+  <img id="fc" src="https://www.redtailbooks.com/codeCamp/images/f2c.jpg" style="width: 10%;min-width: 40px;max-width: 60px;" onclick="Convert()">
+  <div id="msg"></div>
+  <form id="formZip"><span style="font-family: 'Acme', serif;color: white;">Select a location by Zip code: </span>
+    <input id="inputZip" type="text" placeholder="20001" size="2" pattern="\d{5}" autocomplete="off">
+    <button id="buttonZip">Submit</button>
+  </form></div>
+    <br><br><div class="footer">Another <a href='http://redtailbooks.com/codeCamp/Portfolio/' style='color: cornflowerblue;' target='_blank'>David Darby</a> production made with &nbsp;<i class="fa fa-coffee"></i>&nbsp; & &nbsp;<i class="fa fa-book"></i>&nbsp; and hopefully &nbsp;<i class="fa fa-bug"></i>&nbsp; free. &copy; 2017</div>
+</body>
